@@ -1,0 +1,22 @@
+.btn {
+  color: white;
+  background: rgb(166, 166, 255);
+  padding: 1rem;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+  width: 100%;
+}
+
+.btn:hover {
+  background: rgb(97, 97, 177);
+  cursor: pointer;
+}
+
+.btn:active {
+  background: rgb(199, 199, 249);
+}
+
+.btn:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
